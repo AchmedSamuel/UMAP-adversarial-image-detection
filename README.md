@@ -22,9 +22,10 @@ Code Structure: We organize the project into two phases:
   xi. Output legitimate and adversarial UMAP data and saved as CSV files.
 
 2. After UMAP: Attack Detection
-- Load UMAP (2D, 3D, 5D, 10D.) csv files
-- Train DT classifier on loaded UMAP (2D, 3D, 5D, 10D.) csv files.
-- reduced data to compute metrics
-- Generate if-then DT rules
-- Visualize the decision boundary between clean and adversarial images
-- Importance feature extraction
+    i. Load UMAP (2D, 3D, 5D, 10D.) csv files
+    ii. Train DT classifier on loaded UMAP (2D, 3D, 5D, 10D.) csv files.
+    iii. Compute comfusion matrix and metrics (TPR, TNR, FPR, FNR,...)
+    iv. Extract importance feature rangings.
+    v. Generate if-then rules.
+
+- Visualize the decision boundary between legitimate and adversarial images
