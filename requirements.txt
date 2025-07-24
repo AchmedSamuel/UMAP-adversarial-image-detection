@@ -1,0 +1,13 @@
+Python version: 3.9.12 
+#adversarial-robustness-toolbox
+Version: 1.19.1
+scikit-learn version: 1.6.1
+scipy version: 1.13.1
+setuptools version: 75.1.0
+six version: 1.17.0
+tqdm version: 4.67.1
+
+UMAP version 0.5.7
+numpy version 1.23.0
+pandas version 2.2.3
+tensorflow version 2.10.0
