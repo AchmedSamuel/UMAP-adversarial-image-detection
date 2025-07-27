@@ -18,8 +18,6 @@ The dataset of both legitimate and malicious are separately embedded via UMAP an
 
 
 
-Attacking techniques like fast sign gradient methods, Carlini-Wagner and DeepFool are investigated by the embeddings of both legitimate and malicious MNIST and CIFAR-10 dataset via UMAP for various dimensionality reduction. 
-
 
 # Code usage
 To generate UMAP data for FGSM, Carlini and DeepFool attacks, install the adversarial robustness toolbox, UMAP and import all required libraries as in the jupyter notebooks.  
